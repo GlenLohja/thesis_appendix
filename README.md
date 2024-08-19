@@ -5,17 +5,12 @@ This repository contains the code and data associated with the research on anoma
 ## Repository Structure
 
 .
-├── phase1/
-│ ├── 5g_scenario_simulation.cpp
-│ ├── mmWave-tcp-window-newreno-normal.txt
-│ ├── phase1_analysis.ipynb
-│ └── phase1_dataset.txt
-├── phase2/
-│ └── dataset_with_anomalies.txt
-├── phase3/
-│ ├── dataset_with_anomalies.txt
-│ └── phase3_ML_DL.ipynb
-└── README.md
+├── ...
+├── test                    # Test files (alternatively `spec` or `tests`)
+│   ├── benchmarks          # Load and stress tests
+│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+│   └── unit                # Unit tests
+└── ...
 
 ### Phase 1: Simulation
 
